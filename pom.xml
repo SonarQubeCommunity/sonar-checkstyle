@@ -41,7 +41,7 @@
     <developerConnection>scm:git:git@github.com:SonarCommunity/sonar-checkstyle.git</developerConnection>
     <url>https://github.com/SonarCommunity/sonar-checkstyle</url>
     <tag>HEAD</tag>
-  </scm> 
+  </scm>
   <url>http://docs.codehaus.org/x/7pS7DQ</url>
   <issueManagement>
     <system>JIRA</system>
@@ -51,7 +51,7 @@
   <properties>
     <maven.test.redirectTestOutputToFile>true</maven.test.redirectTestOutputToFile>
 
-    <checkstyle.version>5.6</checkstyle.version>
+    <checkstyle.version>5.7</checkstyle.version>
     <sonar.version>3.6</sonar.version>
     <sonar-java.version>2.1</sonar-java.version>
   </properties>
@@ -193,7 +193,7 @@
             <configuration>
               <rules>
                 <requireFilesSize>
-                  <maxsize>1110000</maxsize>
+                  <maxsize>3000000</maxsize>
                   <minsize>1000000</minsize>
                   <files>
                     <file>${project.build.directory}/${project.build.finalName}.jar</file>
