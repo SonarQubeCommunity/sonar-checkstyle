@@ -51,7 +51,7 @@
   <properties>
     <maven.test.redirectTestOutputToFile>true</maven.test.redirectTestOutputToFile>
 
-    <checkstyle.version>5.6</checkstyle.version>
+    <checkstyle.version>6.0</checkstyle.version>
     <sonar.version>3.6</sonar.version>
     <sonar-java.version>2.1</sonar-java.version>
   </properties>
@@ -177,8 +177,8 @@
             <configuration>
               <rules>
                 <requireFilesSize>
-                  <maxsize>1110000</maxsize>
-                  <minsize>1000000</minsize>
+                  <maxsize>1810000</maxsize>
+                  <minsize>1800000</minsize>
                   <files>
                     <file>${project.build.directory}/${project.build.finalName}.jar</file>
                   </files>
