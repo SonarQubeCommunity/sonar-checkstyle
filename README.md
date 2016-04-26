@@ -1,18 +1,9 @@
 Sonar Checkstyle
 ==========
 
-## Description / Features
+## Announcement
 
-This plugin provides coding rules from [Checkstyle](http://checkstyle.sourceforge.net/).
+The sonar checkstyle plugin has been relocated and is now part of the [Checkstyle organization](https://github.com/checkstyle).
 
-Checkstyle Plugin|2.0|2.1.1|2.2|2.3|2.4
------------------|---|---|---|---|---
-Checkstyle|5.6|5.6|6.1|6.4.1|6.12.1
+Please visit the official [sonar-checkstyle](https://github.com/checkstyle/sonar-checkstyle) repository for any feedback you may have.
 
-A majority of the Checkstyle rules have been rewritten in the Java plugin. Rewritten rules are marked "Deprecated" in the Checkstyle plugin, but a [concise summary of replaced rules](http://dist.sonarsource.com/reports/coverage/checkstyle.html) is available.
-
-## Usage
-In the quality profile, activate some rules from Checkstyle and run an analysis on your project.
-
-## Continuous Integration
-[![Build Status](https://travis-ci.org/SonarQubeCommunity/sonar-checkstyle.svg?branch=master)](https://travis-ci.org/SonarQubeCommunity/sonar-checkstyle)
